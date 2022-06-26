@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.main-header {
+    background-color: #fcff82;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    border: black 3px solid;
+}
+
+.main-logo img {
+    width: 55px;
+    height: 55px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.main-options {
+    display: flex;
+}
+
+.main-options li {
+    width: 110px;
+    height: 40px;
+    margin-right: 25px;
+    list-style: none;
+    background-color: #afc5ff;
+    border: black 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.6rem;
+}
+
+.container {
+    background-image: url(./main-fondo2.jpg);
+}
+
+.main-content {
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    border: black 3px solid;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 3rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.imagen-teclado{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-teclado img{
+    width: 150px;
+    height: 120px;
+}
+
+.main-canvas {
+    border: black 3px solid;
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+}
+
+
